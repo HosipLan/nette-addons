@@ -13,4 +13,6 @@ require(['jquery'], ['libs/netteForms'], ['libs/nette.ajax'], function($) {
 			});
 		});
 	});
+
+	$(".chzn-select").chosen();
 });
